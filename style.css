@@ -1,8 +1,6 @@
-nav{
-    display: inline-block;
-    list-style-type: none;
+html{
+    background-color: rgb(224, 218, 218);
 }
-
 
 a{
     color: black;
@@ -22,7 +20,10 @@ a:active{
 }
 
 #topHeader{
-    background-color: rgb(224, 218, 218);
+ 
+    border: solid pink;
+    margin-top: 10px;
+    padding-top: 10px;
 }
 
 #logo{
@@ -31,11 +32,30 @@ a:active{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: transparent;
 }
 
 #motto{
     text-align: center;
-    padding-bottom: 15px;
-    text-shadow: turquoise;
+    text-shadow: 2px 2px 2px gray;
+    font-size: 30px;
+    
 }
+
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:10px;
+    text-align:center;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a{
+    display: inline-block;
+    padding: 10px;
+}
+
